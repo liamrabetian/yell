@@ -8,6 +8,8 @@ The Bitchy Waiter
 ## How to use this package:
 
 ```go
+package main
+
 import "github.com/mohammadrabetian/yell"
 
 func main() {
