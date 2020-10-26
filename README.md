@@ -1,4 +1,4 @@
-# yell
+# yell  [![Go Report Card](https://goreportcard.com/badge/github.com/mohammadrabetian/yell)](https://goreportcard.com/report/github.com/mohammadrabetian/yell)
 
 <img src=man-yelling-560393.jpg height=300px, width=450px/>
 The Bitchy Waiter
