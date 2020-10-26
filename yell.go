@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// It just throws some free software slogan at you, or is it about software really?!
 func FreeSoftware(nationality string) (string, error) {
 	if nationality == "" {
 		return "", errors.New("No matter who you are, you're human!")
