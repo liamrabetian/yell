@@ -10,7 +10,11 @@ The Bitchy Waiter
 ```go
 package main
 
-import "github.com/mohammadrabetian/yell"
+import (
+	"fmt"
+
+	"github.com/mohammadrabetian/yell"
+)
 
 func main() {
 	message, err := yell.FreeSoftware("YOUR_NATIONALITY")
@@ -19,6 +23,7 @@ func main() {
 	}
 	fmt.Println(message)
 }
+
 ```
 
 ##### You should pass your nationality as an argument to `FreeSoftware()` func like `yell.FreeSoftware("Iranian")`
