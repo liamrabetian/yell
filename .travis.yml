@@ -1,0 +1,12 @@
+language: go
+go:
+  - 1.15
+  - 1.x
+  - main
+
+script:
+  - go test
+
+matrix:
+  allow_failures:
+    - go: main
